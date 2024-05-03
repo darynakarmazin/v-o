@@ -40,7 +40,7 @@ li {
   padding: 0;
   margin: 0;
 }
-link {
+a {
   text-decoration: none;
 }
 body {
@@ -124,14 +124,14 @@ body {
 /* date-section end*/
 
 /* location-setion */
-.location-setion .first-part {
+.location-section .first-part {
   border-radius: 0px 0px 40px 40px;
   background: #f0ede4;
   display: flex;
   flex-direction: column;
   align-items: center;
 }
-.location-setion .first-part h2 {
+.location-section .first-part h2 {
   color: var(--title-text);
   font-family: var(--title-font);
   font-size: 60px;
@@ -143,7 +143,7 @@ body {
 
   margin-bottom: 24px;
 }
-.location-setion .first-part p {
+.location-section .first-part p {
   color: var(--title-text);
   font-family: var(--primary-font);
   font-size: 20px;
@@ -154,12 +154,12 @@ body {
 
   margin-bottom: 24px;
 }
-.location-setion .first-part img {
+.location-section .first-part img {
   width: 166px;
   height: 150px;
   fill: #b89137;
 }
-.location-setion .second-part h2 {
+.location-section .second-part h2 {
   color: var(--primary-text);
   font-family: var(--title-font);
   font-size: 60px;
@@ -169,7 +169,7 @@ body {
   text-align: center;
   text-transform: uppercase;
 }
-.location-setion .second-part p {
+.location-section .second-part p {
   color: var(--primary-text);
   font-family: var(--title-font);
   font-size: 80px;
@@ -179,14 +179,14 @@ body {
   text-align: center;
   text-transform: uppercase;
 }
-.location-setion .third-part {
+.location-section .third-part {
   border-radius: 40px;
   background: rgb(240, 237, 228);
   display: flex;
   flex-direction: column;
   align-items: center;
 }
-.location-setion .third-part p {
+.location-section .third-part p {
   color: var(--title-text);
   font-family: var(--primary-font);
   font-size: 20px;
@@ -197,15 +197,17 @@ body {
 
   margin-bottom: 52px;
 }
-.location-setion .third-part .shadow {
+.location-section .third-part .shadow {
   width: 278px;
   height: 313px;
   position: relative;
+
+  margin-bottom: 18px;
 }
-.location-setion .third-part .shadow div {
+.location-section .third-part .shadow img {
   position: absolute;
 }
-.location-setion .third-part .shadow::before {
+.location-section .third-part .shadow::before {
   position: absolute;
   content: "";
   width: 278px;
@@ -217,6 +219,114 @@ body {
   background-color: rgba(184, 145, 55, 0.17);
 }
 /* location-setion end*/
+
+/* details-section */
+.details-section .first-part {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.details-section .first-part h2 {
+  color: var(--primary-text);
+  font-family: var(--title-font);
+  font-size: 60px;
+  font-weight: 300;
+  line-height: 100%;
+  letter-spacing: 0%;
+  text-align: center;
+  text-transform: uppercase;
+
+  margin-bottom: 24px;
+}
+.details-section .first-part ul {
+  display: flex;
+  align-items: flex-end;
+  gap: 18px;
+
+  margin-bottom: 24px;
+}
+.details-section .first-part ul img {
+  fill: #ffffff;
+}
+.details-section .first-part p {
+  color: var(--primary-text);
+  font-family: var(--primary-font);
+  font-size: 20px;
+  font-weight: 300;
+  line-height: 24px;
+  letter-spacing: 0%;
+  text-align: center;
+}
+.details-section .second-part {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.details-section .second-part h2 {
+  color: var(--primary-text);
+  font-family: var(--title-font);
+  font-size: 60px;
+  font-weight: 300;
+  line-height: 100%;
+  letter-spacing: 0%;
+  text-align: center;
+  text-transform: uppercase;
+
+  margin-bottom: 24px;
+}
+.details-section .second-part p {
+  color: var(--primary-text);
+  font-family: var(--primary-font);
+  font-size: 20px;
+  font-weight: 300;
+  line-height: 24px;
+  letter-spacing: 0%;
+  text-align: center;
+
+  margin-bottom: 24px;
+}
+.details-section .third-part {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.details-section .third-part p {
+  color: var(--primary-text);
+  font-family: var(--primary-font);
+  font-size: 20px;
+  font-weight: 300;
+  line-height: 24px;
+  letter-spacing: 0%;
+  text-align: center;
+
+  margin-bottom: 24px;
+}
+.details-section .third-part a {
+  display: block;
+  position: relative;
+  border-radius: 40px;
+  background: rgb(255, 255, 255);
+  padding: 16px 80px 16px 124px;
+
+  color: var(--title-text);
+  font-family: var(--primary-font);
+  font-size: 20px;
+  font-weight: 300;
+  line-height: 24px;
+  letter-spacing: 0%;
+  text-align: center;
+}
+.details-section .third-part a::before {
+  position: absolute;
+  content: "";
+  width: 32px;
+  height: 32px;
+  border-radius: 50%;
+  background-color: var(--title-text);
+  top: 16px;
+  left: 80px;
+}
+/* details-section end*/
 
 @media screen and (min-width: 991px) {
   .main {
