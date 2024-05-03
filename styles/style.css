@@ -322,8 +322,8 @@ body {
   width: 32px;
   height: 32px;
   border-radius: 50%;
-  background-color: var(--title-text);
-  top: 16px;
+  background-image: url(./image/tg-button.svg);
+  top: 12px;
   left: 80px;
 }
 /* details-section end*/
