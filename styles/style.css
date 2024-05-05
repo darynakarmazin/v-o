@@ -337,8 +337,17 @@ body {
     gap: 40px;
     width: 100%;
     margin: 0 auto;
-    max-width: 1920px;
+    max-width: 1792px;
     padding: 154px 16px 197px;
+  }
+  .date-section,
+  .location-section,
+  .details-section {
+    background-color: #fff;
+    border: 1px solid #fff;
+
+    border-radius: 20px;
+    flex-basis: calc((100% - 40px * 2) / 3);
   }
   .date-section .first-part {
     display: flex;
