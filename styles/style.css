@@ -334,25 +334,113 @@ body {
   }
   .deck-container {
     display: flex;
-    gap: 40px;
+    align-items: center;
+    justify-content: space-between;
+    gap: 16px;
     width: 100%;
     margin: 0 auto;
     max-width: 1792px;
-    padding: 154px 16px 197px;
+    padding: 130px 16px;
   }
   .date-section,
   .location-section,
   .details-section {
     background-color: #fff;
-    border: 1px solid #fff;
-
+  }
+  .gate-section {
+    padding: 24px;
     border-radius: 20px;
+    border: 1px solid #fff;
     flex-basis: calc((100% - 40px * 2) / 3);
   }
+  .gate-section.second {
+    margin-top: 154px;
+  }
+  /* date-section */
   .date-section .first-part {
     display: flex;
+    flex-direction: column;
+    padding: 40px 86px 60px;
+  }
+  .date-section .first-part ul {
+    display: flex;
+    align-items: center;
+    margin-bottom: 60px;
+  }
+  .date-section .first-part ul li:first-child p {
+    display: flex;
+    flex-direction: column;
+    color: var(--title-text);
+    font-family: var(--title-font);
+    font-size: 120px;
+    font-weight: 400;
+    line-height: 80%;
+    letter-spacing: 0%;
+    text-align: center;
+
+    padding-right: 24px;
+    border-right: 0.5px solid var(--title-text);
+  }
+  .date-section .first-part ul li:last-child {
+    flex-grow: 1;
+  }
+  .date-section .first-part ul li:last-child p {
+    color: var(--title-text);
+    font-family: var(--title-font);
+    font-size: 20px;
+    font-weight: 300;
+    line-height: 24px;
+    letter-spacing: 0%;
+    text-align: center;
+    text-transform: uppercase;
+
+    padding-left: 20px;
+  }
+  .date-section .first-part .title {
+    color: var(--title-text);
+    font-family: var(--title-font);
+    font-size: 152px;
+    font-weight: 300;
+    line-height: 100%;
+    letter-spacing: 0%;
+    text-align: center;
+    text-transform: uppercase;
   }
   .date-section .second-part .title {
     display: none;
+  }
+  .date-section .second-part {
+    background-image: url(./image/couple-photo-deck.png);
+    min-height: 736px;
+    border-radius: 40px;
+  }
+  .date-section .third-part.container {
+    padding: 24px 48px;
+  }
+  .date-section .third-part p {
+    color: var(--title-text);
+    font-family: var(--primary-font);
+    font-size: 32px;
+    font-weight: 300;
+    line-height: 39px;
+    letter-spacing: 0%;
+    text-align: center;
+
+    margin-bottom: 24px;
+  }
+  .date-section .third-part p:last-child {
+    margin-bottom: 44px;
+  }
+  .date-section .third-part span {
+    color: var(--title-text);
+    font-family: var(--title-font);
+    font-size: 90px;
+    font-weight: 300;
+    line-height: 100%;
+    letter-spacing: 0%;
+    text-align: center;
+    text-transform: uppercase;
+
+    margin-bottom: 24px;
   }
 }
