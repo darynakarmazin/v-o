@@ -206,6 +206,8 @@ body {
 }
 .location-section .third-part .shadow img {
   position: absolute;
+  width: 278px;
+  height: 313px;
 }
 .location-section .third-part .shadow::before {
   position: absolute;
@@ -354,7 +356,7 @@ body {
     flex-basis: calc((100% - 40px * 2) / 3);
   }
   .gate-section.second {
-    margin-top: 154px;
+    margin-top: 204px;
   }
   /* date-section */
   .date-section .first-part {
@@ -442,5 +444,98 @@ body {
     text-transform: uppercase;
 
     margin-bottom: 24px;
+  }
+  /* location-setion */
+  .location-section .first-part.container {
+    padding: 60px 48px;
+  }
+  .location-section .first-part h2 {
+    color: var(--title-text);
+    font-family: var(--title-font);
+    font-size: 80px;
+    font-weight: 300;
+    line-height: 100%;
+    letter-spacing: 0%;
+    text-align: center;
+    text-transform: uppercase;
+
+    margin-bottom: 49px;
+  }
+  .location-section .first-part p {
+    color: var(--title-text);
+    font-family: var(--primary-font);
+    font-size: 32px;
+    font-weight: 300;
+    line-height: 39px;
+    letter-spacing: 0%;
+    text-align: center;
+
+    margin-bottom: 49px;
+  }
+  .location-section .first-part img {
+    width: 257px;
+    height: 231px;
+    fill: #b89137;
+  }
+  .location-section .second-part.container {
+    padding: 60px 64px;
+  }
+  .location-section .second-part h2 {
+    color: var(--title-text);
+    font-family: var(--title-font);
+    font-size: 80px;
+    font-weight: 300;
+    line-height: 100%;
+    letter-spacing: 0%;
+    text-align: center;
+    text-transform: uppercase;
+  }
+  .location-section .second-part p {
+    color: var(--title-text);
+    font-family: var(--title-font);
+    font-size: 100px;
+    font-weight: 300;
+    line-height: 100%;
+    letter-spacing: 0%;
+    text-align: center;
+    text-transform: uppercase;
+  }
+  .location-section .third-part.container {
+    padding: 60px 18px;
+    border-radius: 40px 40px 0 0;
+  }
+  .location-section .third-part p {
+    color: var(--title-text);
+    font-family: var(--primary-font);
+    font-size: 32px;
+    font-weight: 300;
+    line-height: 39px;
+    letter-spacing: 0%;
+    text-align: center;
+
+    margin-bottom: 60px;
+  }
+  .location-section .third-part .shadow {
+    width: 405px;
+    height: 462px;
+    position: relative;
+
+    margin-bottom: 36px;
+  }
+  .location-section .third-part .shadow img {
+    position: absolute;
+    width: 405px;
+    height: 462px;
+  }
+  .location-section .third-part .shadow::before {
+    position: absolute;
+    content: "";
+    width: 405px;
+    height: 462px;
+    top: 0;
+    left: 0;
+    border-radius: 54.71px;
+    transform: rotate(-13.44deg);
+    background-color: rgba(184, 145, 55, 0.17);
   }
 }
