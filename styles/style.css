@@ -543,4 +543,20 @@ body {
     transform: rotate(-13.44deg);
     background-color: rgba(184, 145, 55, 0.17);
   }
+  /* details-section */
+  .details-section .first-part {
+    padding: 60px 24px;
+  }
+  .details-section .first-part h2 {
+    color: var(--title-text);
+    font-family: var(--title-font);
+    font-size: 80px;
+    font-weight: 300;
+    line-height: 100%;
+    letter-spacing: 0%;
+    text-align: center;
+    text-transform: uppercase;
+
+    margin-bottom: 30px;
+  }
 }
