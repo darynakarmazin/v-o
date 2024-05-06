@@ -75,6 +75,7 @@ body {
   background-size: cover;
   min-height: 812px;
   width: 100%;
+  max-width: 100%;
 
   display: flex;
   justify-content: center;
