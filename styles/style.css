@@ -252,7 +252,7 @@ body {
 
   margin-bottom: 24px;
 }
-.details-section .first-part ul img {
+.details-section .first-part ul svg path {
   fill: #ffffff;
 }
 .details-section .first-part p {
@@ -558,5 +558,75 @@ body {
     text-transform: uppercase;
 
     margin-bottom: 30px;
+  }
+  .details-section .first-part ul {
+    gap: 24px;
+
+    margin-bottom: 30px;
+  }
+  .details-section .first-part ul svg {
+    height: 98px;
+    width: auto;
+  }
+  .details-section .first-part ul li:last-child svg {
+    height: 89px;
+    width: auto;
+  }
+  .details-section .first-part ul svg path {
+    fill: rgba(45, 21, 10, 0.49);
+  }
+  .details-section .first-part p {
+    color: var(--title-text);
+    font-family: var(--primary-font);
+    font-size: 32px;
+    font-weight: 300;
+    line-height: 39px;
+    letter-spacing: 0%;
+    text-align: center;
+  }
+  .details-section .second-part {
+    padding: 0 16px;
+  }
+  .details-section .second-part h2 {
+    color: var(--title-text);
+    font-family: var(--title-font);
+    font-size: 80px;
+    font-weight: 300;
+    line-height: 100%;
+    letter-spacing: 0%;
+    text-align: center;
+    text-transform: uppercase;
+  }
+  .details-section .second-part p {
+    color: var(--title-text);
+    font-family: var(--primary-font);
+    font-size: 32px;
+    font-weight: 300;
+    line-height: 39px;
+    letter-spacing: 0%;
+    text-align: center;
+  }
+  .details-section .second-part img {
+    width: 100%;
+    height: auto;
+  }
+  .details-section .third-part {
+    padding: 60px 18px;
+  }
+  .details-section .third-part p {
+    color: var(--title-text);
+    font-family: var(--primary-font);
+    font-size: 32px;
+    font-weight: 300;
+    line-height: 39px;
+    letter-spacing: 0%;
+    text-align: center;
+  }
+  .details-section .third-part a {
+    background: var(--title-text);
+    color: var(--primary-text);
+  }
+  .details-section .third-part a::before {
+    background-image: url(./image/simple-icons_telegram.svg);
   }
 }
