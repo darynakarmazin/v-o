@@ -363,6 +363,23 @@ body {
   .gate-section.second {
     margin-top: 204px;
   }
+  .location-section .first-part h2,
+  .location-section .second-part h2,
+  .details-section .first-part h2,
+  .details-section .second-part h2 {
+    color: var(--title-text);
+  }
+  .date-section .third-part p,
+  .location-section .first-part p,
+  .location-section .third-part p,
+  .details-section .first-part p,
+  .details-section .second-part p,
+  .details-section .third-part p {
+    color: var(--title-text);
+    font-family: var(--primary-font);
+    font-size: 26px;
+    line-height: 32px;
+  }
   /* date-section */
   .date-section .first-part {
     display: flex;
@@ -424,11 +441,6 @@ body {
     padding: 24px 48px;
   }
   .date-section .third-part p {
-    color: var(--title-text);
-    font-family: var(--primary-font);
-    font-size: 32px;
-    line-height: 39px;
-
     margin-bottom: 24px;
   }
   .date-section .third-part p:last-child {
@@ -437,7 +449,6 @@ body {
   .date-section .third-part span {
     color: var(--title-text);
     font-family: var(--title-font);
-    /* font-size: 90px; */
 
     margin-bottom: 24px;
   }
@@ -446,16 +457,9 @@ body {
     padding: 60px 18px;
   }
   .location-section .first-part h2 {
-    color: var(--title-text);
-
     margin-bottom: 49px;
   }
   .location-section .first-part p {
-    color: var(--title-text);
-    font-family: var(--primary-font);
-    font-size: 32px;
-    line-height: 39px;
-
     margin-bottom: 49px;
   }
   .location-section .first-part img {
@@ -466,24 +470,15 @@ body {
   .location-section .second-part.container {
     padding: 60px 18px;
   }
-  .location-section .second-part h2 {
-    color: var(--title-text);
-  }
   .location-section .second-part p {
     color: var(--title-text);
     font-family: var(--title-font);
-    font-size: 100px;
   }
   .location-section .third-part.container {
     padding: 60px 18px;
     border-radius: 40px 40px 0 0;
   }
   .location-section .third-part p {
-    color: var(--title-text);
-    font-family: var(--primary-font);
-    font-size: 32px;
-    line-height: 39px;
-
     margin-bottom: 60px;
   }
 
@@ -492,8 +487,6 @@ body {
     padding: 60px 24px;
   }
   .details-section .first-part h2 {
-    color: var(--title-text);
-
     margin-bottom: 30px;
   }
   .details-section .first-part ul {
@@ -512,26 +505,8 @@ body {
   .details-section .first-part ul svg path {
     fill: rgba(45, 21, 10, 0.49);
   }
-  .details-section .first-part p {
-    color: var(--title-text);
-    font-family: var(--primary-font);
-    font-size: 32px;
-    font-weight: 300;
-    line-height: 39px;
-    letter-spacing: 0%;
-    text-align: center;
-  }
   .details-section .second-part {
     padding: 0 16px;
-  }
-  .details-section .second-part h2 {
-    color: var(--title-text);
-  }
-  .details-section .second-part p {
-    color: var(--title-text);
-    font-family: var(--primary-font);
-    font-size: 32px;
-    line-height: 39px;
   }
   .details-section .second-part img {
     width: 100%;
@@ -539,12 +514,6 @@ body {
   }
   .details-section .third-part {
     padding: 60px 18px;
-  }
-  .details-section .third-part p {
-    color: var(--title-text);
-    font-family: var(--primary-font);
-    font-size: 32px;
-    line-height: 39px;
   }
   .details-section .third-part a {
     background: var(--title-text);
@@ -567,11 +536,23 @@ body {
   .date-section .third-part span {
     font-size: 90px;
   }
+  .date-section .third-part p,
+  .location-section .first-part p,
+  .location-section .third-part p,
+  .details-section .first-part p,
+  .details-section .second-part p,
+  .details-section .third-part p {
+    font-size: 32px;
+    line-height: 39px;
+  }
   .location-section .first-part h2,
   .location-section .second-part h2,
   .details-section .first-part h2,
   .details-section .second-part h2 {
     font-size: 80px;
+  }
+  .location-section .second-part p {
+    font-size: 100px;
   }
   .location-section .third-part .shadow {
     width: 405px;
