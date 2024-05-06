@@ -367,7 +367,6 @@ body {
   .date-section .first-part {
     display: flex;
     flex-direction: column;
-    padding: 40px 60px;
   }
   .date-section .first-part ul {
     display: flex;
@@ -406,7 +405,8 @@ body {
   .date-section .first-part .title {
     color: var(--title-text);
     font-family: var(--title-font);
-    font-size: 152px;
+    font-size: 120px;
+    /* font-size: 152px; */
     font-weight: 300;
     line-height: 100%;
     letter-spacing: 0%;
@@ -438,7 +438,7 @@ body {
   .date-section .third-part span {
     color: var(--title-text);
     font-family: var(--title-font);
-    font-size: 90px;
+    /* font-size: 90px; */
 
     margin-bottom: 24px;
   }
@@ -449,7 +449,7 @@ body {
   .location-section .first-part h2 {
     color: var(--title-text);
     font-family: var(--title-font);
-    font-size: 80px;
+    /* font-size: 80px; */
     font-weight: 300;
 
     margin-bottom: 49px;
@@ -473,7 +473,7 @@ body {
   .location-section .second-part h2 {
     color: var(--title-text);
     font-family: var(--title-font);
-    font-size: 80px;
+    /* font-size: 80px; */
   }
   .location-section .second-part p {
     color: var(--title-text);
@@ -522,7 +522,7 @@ body {
   .details-section .first-part h2 {
     color: var(--title-text);
     font-family: var(--title-font);
-    font-size: 80px;
+    /* font-size: 80px; */
 
     margin-bottom: 30px;
   }
@@ -557,7 +557,7 @@ body {
   .details-section .second-part h2 {
     color: var(--title-text);
     font-family: var(--title-font);
-    font-size: 80px;
+    /* font-size: 80px; */
   }
   .details-section .second-part p {
     color: var(--title-text);
@@ -581,8 +581,34 @@ body {
   .details-section .third-part a {
     background: var(--title-text);
     color: var(--primary-text);
+    padding: 16px 16px 16px 56px;
+    max-width: 100%;
   }
   .details-section .third-part a::before {
     background-image: url(./image/simple-icons_telegram.svg);
+    left: 16px;
+  }
+}
+@media screen and (min-width: 1440px) {
+  .date-section .first-part {
+    padding: 40px 60px;
+  }
+  .date-section .first-part .title {
+    font-size: 152px;
+  }
+  .date-section .third-part span {
+    font-size: 90px;
+  }
+  .location-section .first-part h2,
+  .location-section .second-part h2,
+  .details-section .first-part h2,
+  .details-section .second-part h2 {
+    font-size: 80px;
+  }
+  .details-section .third-part a {
+    padding: 16px 80px 16px 124px;
+  }
+  .details-section .third-part a::before {
+    left: 80px;
   }
 }
