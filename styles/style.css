@@ -428,10 +428,7 @@ body {
     color: var(--title-text);
     font-family: var(--primary-font);
     font-size: 32px;
-    font-weight: 300;
     line-height: 39px;
-    letter-spacing: 0%;
-    text-align: center;
 
     margin-bottom: 24px;
   }
@@ -442,11 +439,6 @@ body {
     color: var(--title-text);
     font-family: var(--title-font);
     font-size: 90px;
-    font-weight: 300;
-    line-height: 100%;
-    letter-spacing: 0%;
-    text-align: center;
-    text-transform: uppercase;
 
     margin-bottom: 24px;
   }
@@ -459,10 +451,6 @@ body {
     font-family: var(--title-font);
     font-size: 80px;
     font-weight: 300;
-    line-height: 100%;
-    letter-spacing: 0%;
-    text-align: center;
-    text-transform: uppercase;
 
     margin-bottom: 49px;
   }
@@ -470,10 +458,7 @@ body {
     color: var(--title-text);
     font-family: var(--primary-font);
     font-size: 32px;
-    font-weight: 300;
     line-height: 39px;
-    letter-spacing: 0%;
-    text-align: center;
 
     margin-bottom: 49px;
   }
@@ -489,21 +474,11 @@ body {
     color: var(--title-text);
     font-family: var(--title-font);
     font-size: 80px;
-    font-weight: 300;
-    line-height: 100%;
-    letter-spacing: 0%;
-    text-align: center;
-    text-transform: uppercase;
   }
   .location-section .second-part p {
     color: var(--title-text);
     font-family: var(--title-font);
     font-size: 100px;
-    font-weight: 300;
-    line-height: 100%;
-    letter-spacing: 0%;
-    text-align: center;
-    text-transform: uppercase;
   }
   .location-section .third-part.container {
     padding: 60px 18px;
@@ -513,10 +488,7 @@ body {
     color: var(--title-text);
     font-family: var(--primary-font);
     font-size: 32px;
-    font-weight: 300;
     line-height: 39px;
-    letter-spacing: 0%;
-    text-align: center;
 
     margin-bottom: 60px;
   }
@@ -551,11 +523,6 @@ body {
     color: var(--title-text);
     font-family: var(--title-font);
     font-size: 80px;
-    font-weight: 300;
-    line-height: 100%;
-    letter-spacing: 0%;
-    text-align: center;
-    text-transform: uppercase;
 
     margin-bottom: 30px;
   }
@@ -591,20 +558,12 @@ body {
     color: var(--title-text);
     font-family: var(--title-font);
     font-size: 80px;
-    font-weight: 300;
-    line-height: 100%;
-    letter-spacing: 0%;
-    text-align: center;
-    text-transform: uppercase;
   }
   .details-section .second-part p {
     color: var(--title-text);
     font-family: var(--primary-font);
     font-size: 32px;
-    font-weight: 300;
     line-height: 39px;
-    letter-spacing: 0%;
-    text-align: center;
   }
   .details-section .second-part img {
     width: 100%;
@@ -617,10 +576,7 @@ body {
     color: var(--title-text);
     font-family: var(--primary-font);
     font-size: 32px;
-    font-weight: 300;
     line-height: 39px;
-    letter-spacing: 0%;
-    text-align: center;
   }
   .details-section .third-part a {
     background: var(--title-text);
