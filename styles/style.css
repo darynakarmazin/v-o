@@ -406,7 +406,6 @@ body {
     color: var(--title-text);
     font-family: var(--title-font);
     font-size: 120px;
-    /* font-size: 152px; */
     font-weight: 300;
     line-height: 100%;
     letter-spacing: 0%;
@@ -448,9 +447,6 @@ body {
   }
   .location-section .first-part h2 {
     color: var(--title-text);
-    font-family: var(--title-font);
-    /* font-size: 80px; */
-    font-weight: 300;
 
     margin-bottom: 49px;
   }
@@ -472,8 +468,6 @@ body {
   }
   .location-section .second-part h2 {
     color: var(--title-text);
-    font-family: var(--title-font);
-    /* font-size: 80px; */
   }
   .location-section .second-part p {
     color: var(--title-text);
@@ -492,37 +486,13 @@ body {
 
     margin-bottom: 60px;
   }
-  .location-section .third-part .shadow {
-    width: 405px;
-    height: 462px;
-    position: relative;
 
-    margin-bottom: 36px;
-  }
-  .location-section .third-part .shadow img {
-    position: absolute;
-    width: 405px;
-    height: 462px;
-  }
-  .location-section .third-part .shadow::before {
-    position: absolute;
-    content: "";
-    width: 405px;
-    height: 462px;
-    top: 0;
-    left: 0;
-    border-radius: 54.71px;
-    transform: rotate(-13.44deg);
-    background-color: rgba(184, 145, 55, 0.17);
-  }
   /* details-section */
   .details-section .first-part {
     padding: 60px 24px;
   }
   .details-section .first-part h2 {
     color: var(--title-text);
-    font-family: var(--title-font);
-    /* font-size: 80px; */
 
     margin-bottom: 30px;
   }
@@ -556,8 +526,6 @@ body {
   }
   .details-section .second-part h2 {
     color: var(--title-text);
-    font-family: var(--title-font);
-    /* font-size: 80px; */
   }
   .details-section .second-part p {
     color: var(--title-text);
@@ -604,6 +572,29 @@ body {
   .details-section .first-part h2,
   .details-section .second-part h2 {
     font-size: 80px;
+  }
+  .location-section .third-part .shadow {
+    width: 405px;
+    height: 462px;
+    position: relative;
+
+    margin-bottom: 36px;
+  }
+  .location-section .third-part .shadow img {
+    position: absolute;
+    width: 405px;
+    height: 462px;
+  }
+  .location-section .third-part .shadow::before {
+    position: absolute;
+    content: "";
+    width: 405px;
+    height: 462px;
+    top: 0;
+    left: 0;
+    border-radius: 54.71px;
+    transform: rotate(-13.44deg);
+    background-color: rgba(184, 145, 55, 0.17);
   }
   .details-section .third-part a {
     padding: 16px 80px 16px 124px;
