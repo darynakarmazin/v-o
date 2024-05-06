@@ -386,6 +386,7 @@ body {
   .date-section .first-part {
     display: flex;
     flex-direction: column;
+    padding: 60px 16px;
   }
   .date-section .first-part ul {
     display: flex;
@@ -397,7 +398,7 @@ body {
     flex-direction: column;
     color: var(--title-text);
     font-family: var(--title-font);
-    font-size: 120px;
+    font-size: 100px;
     font-weight: 400;
     line-height: 80%;
     letter-spacing: 0%;
@@ -541,6 +542,9 @@ body {
   }
   .date-section .third-part span {
     font-size: 90px;
+  }
+  .date-section .first-part ul li:first-child p {
+    font-size: 120px;
   }
   .date-section .third-part p,
   .location-section .first-part p,
