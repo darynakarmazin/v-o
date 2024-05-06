@@ -59,6 +59,7 @@ body {
 }
 .container {
   width: 100%;
+  max-width: 768px;
   padding: 24px 16px;
   margin: 0 auto;
 }
@@ -355,10 +356,10 @@ body {
     background-color: #fff;
   }
   .gate-section {
-    padding: 24px;
+    padding: 16px;
     border-radius: 20px;
     border: 1px solid #fff;
-    width: calc((100% - (40px * 2)) / 3) !important;
+    width: calc((100% - (32px * 2)) / 3) !important;
   }
   .gate-section.second {
     margin-top: 204px;
@@ -527,6 +528,10 @@ body {
   }
 }
 @media screen and (min-width: 1440px) {
+  .gate-section {
+    padding: 24px;
+    width: calc((100% - (40px * 2)) / 3) !important;
+  }
   .date-section .first-part {
     padding: 40px 60px;
   }
