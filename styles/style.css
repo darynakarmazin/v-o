@@ -63,6 +63,18 @@ body {
   padding: 24px 16px;
   margin: 0 auto;
 }
+.date-section .second-part,
+.date-section .third-part,
+.location-section .first-part,
+.location-section .second-part,
+.location-section .third-part,
+.details-section .first-part,
+.details-section .second-part,
+.details-section .third-part {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
 
 /* date-section */
 .date-section .first-part {
@@ -76,10 +88,6 @@ body {
   min-height: 812px;
   width: 100%;
   max-width: 100%;
-
-  display: flex;
-  justify-content: center;
-  align-items: flex-end;
 }
 .date-section .second-part .title {
   color: var(--primary-text);
@@ -91,11 +99,6 @@ body {
   text-align: center;
   text-transform: uppercase;
   margin-bottom: 16px;
-}
-.date-section .third-part {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
 }
 .date-section .third-part p {
   color: var(--primary-text);
@@ -129,9 +132,6 @@ body {
 .location-section .first-part {
   border-radius: 0px 0px 40px 40px;
   background: #f0ede4;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
 }
 .location-section .first-part h2 {
   color: var(--title-text);
@@ -161,11 +161,6 @@ body {
   height: 150px;
   fill: #b89137;
 }
-.location-section .second-part {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-}
 .location-section .second-part h2 {
   color: var(--primary-text);
   font-family: var(--title-font);
@@ -189,9 +184,6 @@ body {
 .location-section .third-part {
   border-radius: 40px;
   background: rgb(240, 237, 228);
-  display: flex;
-  flex-direction: column;
-  align-items: center;
 }
 .location-section .third-part p {
   color: var(--title-text);
@@ -230,11 +222,6 @@ body {
 /* location-setion end*/
 
 /* details-section */
-.details-section .first-part {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-}
 .details-section .first-part h2 {
   color: var(--primary-text);
   font-family: var(--title-font);
@@ -266,11 +253,6 @@ body {
   letter-spacing: 0%;
   text-align: center;
 }
-.details-section .second-part {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-}
 .details-section .second-part h2 {
   color: var(--primary-text);
   font-family: var(--title-font);
@@ -293,11 +275,6 @@ body {
   text-align: center;
 
   margin-bottom: 24px;
-}
-.details-section .third-part {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
 }
 .details-section .third-part p {
   color: var(--primary-text);
