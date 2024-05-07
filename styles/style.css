@@ -63,7 +63,6 @@ body {
   padding: 24px 16px;
   margin: 0 auto;
 }
-.date-section .second-part,
 .date-section .third-part,
 .location-section .first-part,
 .location-section .second-part,
@@ -88,7 +87,12 @@ body {
   min-height: 812px;
   width: 100%;
   max-width: 100%;
+
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
 }
+
 .date-section .second-part .title {
   color: var(--primary-text);
   font-family: var(--title-font);
