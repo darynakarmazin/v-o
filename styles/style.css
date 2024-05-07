@@ -48,7 +48,7 @@ body {
   font-size: 16px;
   color: var(--primary-text);
 }
-.main {
+.screen {
   background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
     url(./image/bg-image.jpeg);
   background-position: center;
