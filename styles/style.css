@@ -548,6 +548,17 @@ body {
   .location-section .second-part p {
     font-size: 100px;
   }
+  .details-section .third-part a {
+    padding: 16px 80px 16px 124px;
+  }
+  .details-section .third-part a::before {
+    left: 80px;
+  }
+}
+@media screen and (min-width: 1680px) {
+  .date-section .first-part {
+    padding: 40px 60px;
+  }
   .location-section .third-part .shadow {
     width: 405px;
     height: 462px;
@@ -570,16 +581,5 @@ body {
     border-radius: 54.71px;
     transform: rotate(-13.44deg);
     background-color: rgba(184, 145, 55, 0.17);
-  }
-  .details-section .third-part a {
-    padding: 16px 80px 16px 124px;
-  }
-  .details-section .third-part a::before {
-    left: 80px;
-  }
-}
-@media screen and (min-width: 1920px) {
-  .date-section .first-part {
-    padding: 40px 60px;
   }
 }
