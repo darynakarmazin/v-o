@@ -257,6 +257,9 @@ body {
   letter-spacing: 0%;
   text-align: center;
 }
+.details-section .second-part {
+  padding: 0 16px;
+}
 .details-section .second-part h2 {
   color: var(--primary-text);
   font-family: var(--title-font);
@@ -428,7 +431,7 @@ body {
     margin-bottom: 24px;
   }
   .date-section .third-part p:last-child {
-    margin-bottom: 44px;
+    margin-bottom: 20px;
   }
   .date-section .third-part span {
     color: var(--title-text);
@@ -516,7 +519,7 @@ body {
     width: calc((100% - (40px * 2)) / 3) !important;
   }
   .date-section .first-part {
-    padding: 40px 60px;
+    padding: 40px 20px;
   }
   .date-section .first-part .title {
     font-size: 152px;
@@ -573,5 +576,10 @@ body {
   }
   .details-section .third-part a::before {
     left: 80px;
+  }
+}
+@media screen and (min-width: 1920px) {
+  .date-section .first-part {
+    padding: 40px 60px;
   }
 }
