@@ -425,7 +425,7 @@ body {
     border-radius: 40px;
   }
   .date-section .third-part.container {
-    padding: 24px 48px;
+    padding: 24px 18px;
   }
   .date-section .third-part p {
     margin-bottom: 24px;
@@ -581,6 +581,9 @@ body {
 @media screen and (min-width: 1680px) {
   .date-section .first-part {
     padding: 40px 60px;
+  }
+  .date-section .third-part.container {
+    padding: 24px 48px;
   }
   .location-section .third-part .shadow {
     width: 405px;
