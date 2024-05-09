@@ -436,6 +436,7 @@ body {
   .date-section .third-part span {
     color: var(--title-text);
     font-family: var(--title-font);
+    font-size: 72px;
 
     margin-bottom: 24px;
   }
@@ -524,11 +525,11 @@ body {
   .date-section .first-part .title {
     font-size: 152px;
   }
-  .date-section .third-part span {
-    font-size: 90px;
-  }
   .date-section .first-part ul li:first-child p {
-    font-size: 120px;
+    font-size: 100px;
+  }
+  .date-section .third-part span {
+    font-size: 80px;
   }
   .date-section .third-part p,
   .location-section .first-part p,
@@ -536,14 +537,14 @@ body {
   .details-section .first-part p,
   .details-section .second-part p,
   .details-section .third-part p {
-    font-size: 32px;
-    line-height: 39px;
+    font-size: 28px;
+    line-height: 36px;
   }
   .location-section .first-part h2,
   .location-section .second-part h2,
   .details-section .first-part h2,
   .details-section .second-part h2 {
-    font-size: 80px;
+    font-size: 72px;
   }
   .location-section .second-part p {
     font-size: 100px;
@@ -581,6 +582,27 @@ body {
 @media screen and (min-width: 1680px) {
   .date-section .first-part {
     padding: 40px 60px;
+  }
+  .date-section .first-part ul li:first-child p {
+    font-size: 120px;
+  }
+  .date-section .third-part span {
+    font-size: 90px;
+  }
+  .date-section .third-part p,
+  .location-section .first-part p,
+  .location-section .third-part p,
+  .details-section .first-part p,
+  .details-section .second-part p,
+  .details-section .third-part p {
+    font-size: 32px;
+    line-height: 39px;
+  }
+  .location-section .first-part h2,
+  .location-section .second-part h2,
+  .details-section .first-part h2,
+  .details-section .second-part h2 {
+    font-size: 80px;
   }
   .date-section .third-part.container {
     padding: 24px 48px;
