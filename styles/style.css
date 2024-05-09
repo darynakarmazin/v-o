@@ -319,7 +319,7 @@ body {
 /* details-section end*/
 
 @media screen and (min-width: 1024px) {
-  .main {
+  .screen {
     background-image: url(./image/bg-image.jpeg);
   }
   .deck-container {
