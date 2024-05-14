@@ -445,6 +445,7 @@ body {
     padding-left: 20px;
   }
   .date-section .first-part .title {
+    display: block;
     color: var(--title-text);
     font-family: var(--title-font);
     font-size: 120px;
