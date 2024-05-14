@@ -96,6 +96,7 @@ body {
   text-align: center;
 
   padding-right: 34px;
+  padding-bottom: 10px;
   border-right: 0.5px solid var(--primary-text);
 }
 .date-section .first-part ul li:last-child {
