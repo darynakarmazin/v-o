@@ -226,6 +226,10 @@ body {
 /* location-setion end*/
 
 /* details-section */
+.details-section .third-part {
+  padding-bottom: 42px;
+}
+
 .details-section .first-part h2 {
   color: var(--primary-text);
   font-family: var(--title-font);
