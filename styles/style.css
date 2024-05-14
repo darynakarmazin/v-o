@@ -63,6 +63,7 @@ body {
   padding: 24px 16px;
   margin: 0 auto;
 }
+.date-section .first-part,
 .date-section .third-part,
 .location-section .first-part,
 .location-section .second-part,
@@ -77,6 +78,42 @@ body {
 
 /* date-section */
 .date-section .first-part {
+  padding: 42px 24px 20px 35px;
+}
+.date-section .first-part ul {
+  display: flex;
+  align-items: center;
+}
+.date-section .first-part ul li:first-child p {
+  display: flex;
+  flex-direction: column;
+  color: var(--primary-text);
+  font-family: var(--title-font);
+  font-size: 100px;
+  font-weight: 400;
+  line-height: 80%;
+  letter-spacing: 0%;
+  text-align: center;
+
+  padding-right: 34px;
+  border-right: 0.5px solid var(--primary-text);
+}
+.date-section .first-part ul li:last-child {
+  flex-grow: 1;
+}
+.date-section .first-part ul li:last-child p {
+  color: var(--primary-text);
+  font-family: var(--title-font);
+  font-size: 20px;
+  font-weight: 300;
+  line-height: 24px;
+  letter-spacing: 0%;
+  text-align: center;
+  text-transform: uppercase;
+
+  padding-left: 20px;
+}
+.date-section .first-part .title {
   display: none;
 }
 .date-section .second-part {
@@ -92,7 +129,6 @@ body {
   justify-content: center;
   align-items: flex-end;
 }
-
 .date-section .second-part .title {
   color: var(--primary-text);
   font-family: var(--title-font);
@@ -372,8 +408,6 @@ body {
   }
   /* date-section */
   .date-section .first-part {
-    display: flex;
-    flex-direction: column;
     padding: 60px 16px;
   }
   .date-section .first-part ul {
